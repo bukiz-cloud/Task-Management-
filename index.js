@@ -2,7 +2,7 @@ import express from 'express';
 import {dbConnect}  from './config/db.js';
 
 import dotenv from 'dotenv'
-import User from './model/User.js';
+
 import userRoutes from './routes/userRoutes.js';
 import router from './routes/taskRoutes.js';
 
