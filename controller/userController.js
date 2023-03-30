@@ -3,6 +3,7 @@ import bcrypt from "bcrypt";
 import generateToken from "../utilis/generateToken.js";
 import Tasks from "../model/Task.js";
 
+
 export const userRegisterController = async (req, res) => {
   const { firstname, lastname, othername, email, password } = req.body;
   try {
